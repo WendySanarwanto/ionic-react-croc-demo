@@ -1,5 +1,5 @@
 # ionic-react-croc-demo
-This simple project was taken from [Paul Halliday's Ionic 4 and React article](https://alligator.io/ionic/react-and-ionic/) and it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), enhanced with [Capacitor](https://github.com/ionic-team/capacitor), so that the app can be built and ran as progressive web app and also hybrid Android & iOS Mobile app.
+This simple project was taken from [Paul Halliday's 'Ionic 4 and React' article](https://alligator.io/ionic/react-and-ionic/) and it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), enhanced with [Capacitor](https://github.com/ionic-team/capacitor), so that the app can be built and ran as progressive web app and also hybrid Android & iOS Mobile app.
 
 ## HOW TO - Build and Run the App as an Android app
 
