@@ -1,4 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ionic-react-croc-demo
+This simple project was taken from [Paul Halliday's Ionic 4 and React article](https://alligator.io/ionic/react-and-ionic/) and it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), enhanced with [Capacitor](https://github.com/ionic-team/capacitor), so that the app can be built and ran as progressive web app and also hybrid Android & iOS Mobile app.
+
+## HOW TO - Build and Run the App as an Android app
+
+1. Ensure that you have installed [Android Studio](https://developer.android.com/studio/?gclid=Cj0KCQjwpPHoBRC3ARIsALfx-_LtN59nDz7jdWPAUOOXgvfCqZRu60CsnxcI5-6nA9W5IB7ZRPlwNeEaAmnzEALw_wcB) along with latest 2 versions of Android SDKs, Platform tools with setup required environment variables.
+
+2. Run `yarn build` command to build the web app. Confirm that `build` folder is created upon finished command.
+
+3. Run `npx cap init` command to initialise this project as a [Capacitor](https://github.com/ionic-team/capacitor). Enter appropriate values on prompted fields.
+
+4. Run `npx cap add android` command to generate Android folder and its files.
+
+5. Run `npx cap sync android` command to copy all contents inside the `build` folder to `android`'s folders.
+
+6. Run `npx cap open android` command to fire up the android project on Android studio and let it performs additional initialisation on the project such as running gradle build to pull required dependencies.
+
+7. Once initialisation process is done, run an Android Virtual Device (Emulator) or Connect your android phone to your machine, then click the `Run` menu and followed by clicking `Run 'app'` sub menu item. Confirm that the app is running on your running simulator/android phone.
 
 ## Available Scripts
 

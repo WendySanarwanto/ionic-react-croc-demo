@@ -1,0 +1,7 @@
+{
+  "appId": "com.ionic.react.croc.demo",
+  "appName": "ionic-react-croc-demo",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build"
+}
